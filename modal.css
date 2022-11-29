@@ -1,0 +1,79 @@
+
+.modal-op {
+	width: 1000px;
+	background: #fff;
+	border-radius:6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+	text-align: center;
+	padding: 0px 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+	z-index: 6;
+}
+
+.modal-op img{
+	width:100px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow:0 2px 5px rgba(0,0,0,0.2);
+
+}
+.modlab{
+	font-size: 15px;
+	font-weight: 100;
+
+}
+.modal-op h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 30px 0 10px;
+}
+
+.modal-op .buttons{
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #6fd649; 
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow:0 5px 5px rgba(0,0,0,0.2);
+}
+
+#modal-msg{
+	top:100px;
+	margin:10px 0;
+	padding: 5px 30px;
+	display:none;
+	//background: #605953;//aqua;
+	color: #000000;
+	border-radius:8px;
+	font-size:15px;
+	text-align:center;
+}
+
+.openm-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+div .addbu{
+  justify-content: space-around;
+}
+
+div .addbu .addbutn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

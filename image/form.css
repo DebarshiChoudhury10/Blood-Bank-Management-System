@@ -1,0 +1,204 @@
+.login-page{
+	height: 100vh;
+	background: rgba(0,0,0,0.7) url('map.jpg');
+	background-size: cover;
+	background-blind-mode: darken;
+	background-attachment: fixed;
+}
+
+.nav-list li button{
+	background: none;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+
+.nav-list li button:hover{
+	text-decoration: none;
+	color: aqua;
+}
+
+::placeholder{
+	font-family: "Times New Roman";
+	color:#605953;
+	opacity: .8;
+}
+
+/*#login-form
+{
+    display: none;
+}
+/*
+.form-box
+{
+    	width:380px;
+	height:570px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(255,255,255,0.8);
+	border-radius:10px;
+	padding:10px;
+    	overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 14px #ff61252f;
+	border-radius: 50px;
+}
+.toggle-btn
+{
+	padding:10px 36px;
+	cursor:pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+.toggle-btnn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#logbtn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    	top: 100px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register form select
+{
+    	top: 110px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:8px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.field-select
+{
+	width: 100%;
+	padding:10px 0;
+	font-size: 15px;
+	margin:5px 0;
+	font-family: "Times New Roman";
+	color: #080807;
+	outline:none;
+	background: transparent;
+	background-color:transparent;
+}
+form select option
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	font-family: "Times New Roman";
+	color:#080807;
+	outline:none;
+	background: transparent;
+	background-color:transparent;
+}
+.submit-btn
+{
+	width: 70%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 20px 10px 34px 0;
+}
+span
+{
+	font-family: "Times New Roman";
+	color: #080807;
+	font-size:15px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:black;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:black;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+.login-page form .error-msg{
+	top:100px;
+	margin:10px 0;
+	padding: 10px 30px;
+	display:block;
+	background: #605953;//aqua;
+	color: #fff;
+	border-radius:8px;
+	font-size:15px;
+	text-align:center;
+}
+
+.login-page form .lerror-msg{
+	top:100px;
+	margin:10px 0;
+	padding: 10px 30px;
+	display:block;
+	background: #605953;//aqua;
+	color: #fff;
+	border-radius:8px;
+	font-size:15px;
+	text-align:center;
+}*/
